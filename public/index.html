@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quitar fondo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>Sube una imagen para quitarle el fondo</h1>
+  </header>
+  <div class="container">
+    <form id="uploadForm" enctype="multipart/form-data">
+      <input id="chooseInput" type="file" name="image" accept="image/*" required />
+      <div class="container-button">
+   
+        <label for="chooseInput" class="custom-file-button">Seleccionar archivo</label>
+        <span id="fileName" class="file-name">Ningún archivo seleccionado</span>
+
+        <button type="submit" class="custom-file-button">Quitar fondo</button>
+      </div>
+    </form>
+    <br />
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
