@@ -1,3 +1,4 @@
-﻿# Api-remove-img!
-# Remove-img-Api!
+﻿# Api-remove-img
+# Remove-img-Api
+
 
